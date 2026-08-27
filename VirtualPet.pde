@@ -1,8 +1,48 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+  size(400,400);
 }
-void draw(){
-  //more of your code here
+void draw()
+{
+  fill(0,0,0);
+  ellipse(100,80,100,100);
+  fill(255,255,255);
+  ellipse(100,80,50,50);
+  fill(0,0,0);
+  ellipse(300,80,100,100);
+  fill(255,255,255);
+  ellipse(300,80,50,50);
+  fill(255,255,255);
+  ellipse(200,200,300,300);
+  fill(0,0,0);
+  ellipse(120,220,90,85);
+  fill(0,0,0);
+  ellipse(280,220,90,85);
+  //eyes
+  fill(0,0,0);
+  ellipse(140,195,100,100);
+  fill(0,0,0);
+  ellipse(260,195,100,100);
+   fill(255,255,255);
+  ellipse(140,195,70,70);
+  fill(255,255,255);
+  ellipse(260,195,70,70);
+   fill(0,0,0);
+  ellipse(140,195,30,30);
+  fill(0,0,0);
+  ellipse(260,195,30,30);
+  noStroke();
+  fill(255,255,255);
+  ellipse(140,140,130,100);
+  fill(255,255,255);
+  ellipse(260,140,130,100);
+  //mouth
+  fill(0,0,0);
+  ellipse(180,300,100,50);
+  fill(0,0,0);
+  ellipse(220,300,100,50);
+  fill(255,255,255);
+  ellipse(150,290,100,60);
+  fill(255,255,255);
+  ellipse(250,290,100,60);
 }
-
